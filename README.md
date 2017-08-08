@@ -39,18 +39,23 @@ Per nå er etter min mening `dev` forbedret en god del når det kommer til å f�
   - Tilskuere
 - All infoen blir en liten tekst som postes som en egen kommentar i rundetråden. Eksempel:
 
-```[Aalesund - Brann](link til kampinfoside)
+```
+[Aalesund - Brann](link til kampinfoside)
 Kampstart: 20.00
 Dommer: En kar
-Tilskuere: [oppdateres når tilgjengelig på kampside]```
-
+Tilskuere: [oppdateres når tilgjengelig på kampside]
+```
+&nbsp;
 
 Etter at kampen har startet legges det til kampinfo i samme kommentar. Eksempel:
 
-```[Aalesund - Brann](link til kampinfoside)
+&nbsp;
+
+```
+[Aalesund - Brann](link til kampinfoside)
 Kampstart: 20.00
 Dommer: En kar
-Tilskuere: [oppdateres når tilgjengelig på kampside]```
+Tilskuere: [oppdateres når tilgjengelig på kampside]
 
 10' Mål Brann (Jakob Orlov, assist Vidar Jónsson)
 12' Mål Brann (Kristoffer Barmen)
