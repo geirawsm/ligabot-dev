@@ -17,13 +17,14 @@
 - Når rundetråd er laget på subredditen ligger den i bero inntil man begynner å sjekke kampresultater.
 - Resultater skal begynne å sjekkes når første kamp starter. Intervall er per 60. sekund.
 - Hver rundetråd har en "skjult" link som brukes for å erstatte kun en enkelt del av teksten i en submission. Denne er lik som for rundetråder og ser slik ut: `[](#kamper)` og `[](/kamper)`.
-
+- Jeg har forsøkt å også sette det opp sånn at hvis `ligabot-runde.py` ikke kjøres med et liganummer, så vil den kjøres i testmodus. Fila `testfiler.py` lager  automatisk runde- og tabell-fil i mappa `testfiler` som kan brukes til testing av selve koden uten å måtte vente på at nye runder/kamper starter live på altomfotball.no. Denne får jeg ikke helt til å funke som ønskelig, så skrik ut de som har lyst til å prøve å forbedre den.
 
 ### Litt om praw og testing
 - Bruker OAuth for innlogging som script istedet for bruker/pass
 - [Les mer her](https://github.com/armandg/ligabot#oauth) for å finne ut av hvordan du kan skaffe OAuth-nøkler så du får kjørt eget script
 - Kan maks oppdatere mot reddit hvert 2. sekund, så eventuelle API-henvendelser må ta hensyn til det
 - Jeg bruker [/r/tippeligaensandbox](tippeligaensandbox.reddit.com) til testing. Si ifra hvis du ønsker mod-tilgang der for å teste kjøring av scriptet.
+- 
 
 ### Ønsker om forbedringer
 1. Forbedring av fil- og kodestruktur
