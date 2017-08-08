@@ -1,0 +1,17 @@
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Python
+pip-log.txt
+
+# Script specific
+userinfo.ini
+liga_*
+__pycache__/*
+ligabot/__pycache__/*
+testfiler/*
+*.replied
