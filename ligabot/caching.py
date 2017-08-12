@@ -4,6 +4,7 @@ import os
 import sys
 import re
 import ligabot.uselog
+import ligabot.config
 
 config = ligabot.config.get_config()
 
