@@ -12,6 +12,10 @@ pip-log.txt
 userinfo.ini
 liga_*
 __pycache__/*
-ligabot/__pycache__/*
+*/__pycache__/*
 testfiler/*
 *.replied
+
+# Editor
+.vscode
+
